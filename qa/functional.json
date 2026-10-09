@@ -1,0 +1,150 @@
+{
+  "course": "jira-cloud",
+  "status": "passed",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "Complete task path and empty-input errors",
+    "Exact draft export",
+    "100% and 0% score boundaries; first attempt retained",
+    "Completion remains distinct from success",
+    "All 10 screens reflow at 320px with larger text",
+    "Browser-to-real-LRS delivery receipts"
+  ],
+  "receipts": [
+    {
+      "id": "8721fe94-0d4a-4085-93ab-173b0fa5030f",
+      "stored": true,
+      "verb": "initialized"
+    },
+    {
+      "id": "66ccc746-53b4-464b-9ad8-225d5c12ff65",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "867f34da-6306-42d4-a7bd-7ada688c9db7",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "896a8781-7eb5-4d36-97c0-fc35ff4edf88",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "19857f06-6465-4b02-8075-d533c2a9554c",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "d3183cab-f248-491d-921a-500935ea8014",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "903c6eb4-a69a-45ca-a21f-110916ef8a4d",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "44b66600-b060-40e6-bd5f-80aa923c9d20",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "c4281a81-3b85-485e-a8b3-6ec1cbee5fa4",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "9c99339a-8060-4c73-a5fa-bab6984aac2a",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "477f79c8-4f6f-40dd-a2ee-694230269042",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "1bed0815-89cb-4fb4-b2b8-f26bebae9ddb",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "57d97e03-c950-44a8-a865-14534c57e602",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "265fb36d-e2bf-4801-9a37-6fd10d490068",
+      "stored": true,
+      "verb": "passed"
+    },
+    {
+      "id": "10dc92e0-8469-456a-847a-c27554e2a05e",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "56ef183c-8d3d-46dc-b302-b0ec38b49881",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "5b3fd5c3-54e9-49a4-8238-7f89d6c53484",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "4bdc2980-8df8-449f-ae1d-9dc51b5e5a6c",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "d1763308-1a1f-4f5e-a57a-003d976a726a",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "627f54a6-0435-441f-8802-2c83c6d89ea3",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "83e7359f-a0f4-4c58-8a67-8b7448d6c754",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "433ec91f-e6f8-4265-adeb-2d35164c5d92",
+      "stored": true,
+      "verb": "failed"
+    },
+    {
+      "id": "45fa4207-a150-4fd0-9843-4719ec07aa7b",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "079fd67c-925d-458f-9d06-0b641655f58d",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "65ca43c9-c6b9-4257-9e8e-4d60ea016808",
+      "stored": true,
+      "verb": "completed"
+    },
+    {
+      "id": "88f2752e-f9ab-41e3-b1a4-2ad0ccc5d0d1",
+      "stored": true,
+      "verb": "experienced"
+    }
+  ],
+  "limitations": [
+    "Not a full WCAG audit",
+    "Not a real Moodle test",
+    "Not a learner pilot"
+  ]
+}

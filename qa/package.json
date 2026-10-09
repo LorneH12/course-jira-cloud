@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "archive": "course-jira-cloud-scorm12.zip",
+  "sha256": "aeceebe4727348e224bb061fa57d3a460902b69149a99b7e3d40e7f2cd9e2c64",
+  "checks": [
+    "Manifest parses",
+    "Launch target present",
+    "All manifest files present",
+    "SCORM 1.2 SCO declaration"
+  ],
+  "boundary": "Structural test, not schema conformance or Moodle import"
+}
