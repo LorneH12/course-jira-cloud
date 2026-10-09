@@ -1,0 +1,137 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Jira Cloud: Make Work Ready to Act On storyboard</title><style>body{font:18px/1.6 Arial;max-width:900px;margin:40px auto;padding:20px}h1,h2{color:#a71625}pre{white-space:pre-wrap}</style><h1>Jira Cloud: Make Work Ready to Act On</h1><p>Script, interaction copy and keyed feedback. Text-first lesson; no narration required.</p><pre>{
+  &quot;id&quot;: &quot;jira-cloud&quot;,
+  &quot;title&quot;: &quot;Jira Cloud: Make Work Ready to Act On&quot;,
+  &quot;headline&quot;: &quot;Make work clear.\nKeep progress honest.&quot;,
+  &quot;audience&quot;: &quot;Project contributors and team leads&quot;,
+  &quot;need&quot;: &quot;An ambiguous work item moves to Done without evidence that the requested result was delivered.&quot;,
+  &quot;outcomes&quot;: [
+    &quot;Choose a work-item description with observable acceptance criteria.&quot;,
+    &quot;Select a status action consistent with a fictional team workflow.&quot;
+  ],
+  &quot;concepts&quot;: [
+    {
+      &quot;title&quot;: &quot;Capture an actionable work item&quot;,
+      &quot;body&quot;: &quot;Current Jira Cloud documentation uses work item; some sites and teams still say issue. Create opens a form whose fields depend on the space, work type and configuration. This lesson uses a simplified simulation, not a pixel-exact tenant tutorial.&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Write the result and acceptance criteria&quot;,
+      &quot;body&quot;: &quot;A useful description names the outcome and how the team will check it. Acceptance criteria are an observable agreement, not merely a due date. The format used here is a training example, not a mandatory Jira field or universal team policy.&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Use the team workflow&quot;,
+      &quot;body&quot;: &quot;Statuses represent stages of work; transitions move between them. Available transitions depend on workflow rules and permissions. In this fictional team, work moves To do → In progress → Review → Done after evidence review.&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Keep the record useful&quot;,
+      &quot;body&quot;: &quot;Record the blocker, evidence or next action that another teammate needs. Do not move an item to Done simply because effort was spent. Check the team’s completion criteria and avoid putting sensitive customer information into a public example.&quot;
+    }
+  ],
+  &quot;example&quot;: {
+    &quot;title&quot;: &quot;A training-job-aid request&quot;,
+    &quot;body&quot;: &quot;Weak request: “Update training.” Improved request: “Publish the revised escalation job aid for new trainers.” The fictional criteria are: accurate three-step procedure, accessible headings, and reviewer confirmation.&quot;,
+    &quot;steps&quot;: [
+      &quot;Select the correct work context and type for your tenant.&quot;,
+      &quot;Describe the outcome and three observable checks.&quot;,
+      &quot;Work on the job aid and attach or link approved evidence.&quot;,
+      &quot;Move to Review while confirmation is pending; use Done only after this team’s criteria are met.&quot;
+    ]
+  },
+  &quot;practice&quot;: {
+    &quot;prompt&quot;: &quot;The job aid is drafted but reviewer confirmation is missing. In this fictional workflow, what fits?&quot;,
+    &quot;options&quot;: [
+      &quot;Done because the author finished writing&quot;,
+      &quot;Review, with the evidence and outstanding check recorded&quot;,
+      &quot;Delete the item&quot;
+    ],
+    &quot;key&quot;: 1,
+    &quot;feedback&quot;: &quot;The team’s agreement requires review before Done; the status should represent the real state.&quot;
+  },
+  &quot;draft&quot;: {
+    &quot;prompt&quot;: &quot;Draft a work item for updating a trainer checklist. Include the outcome, two acceptance criteria and the next status when review is still pending.&quot;,
+    &quot;label&quot;: &quot;Your work-item brief&quot;,
+    &quot;model&quot;: &quot;Update the trainer checklist for the revised handoff. Criteria: all four handoff steps match the approved process; a reviewer confirms the accessible version. Status: Review while confirmation is pending.&quot;,
+    &quot;criteria&quot;: [
+      &quot;Names a concrete deliverable&quot;,
+      &quot;Includes observable acceptance criteria&quot;,
+      &quot;Uses status consistent with evidence&quot;,
+      &quot;States a useful next action or reviewer need&quot;
+    ]
+  },
+  &quot;quiz&quot;: [
+    {
+      &quot;prompt&quot;: &quot;Which title is most actionable?&quot;,
+      &quot;options&quot;: [
+        &quot;Stuff&quot;,
+        &quot;Publish the revised trainer escalation job aid&quot;,
+        &quot;Urgent!!!&quot;
+      ],
+      &quot;key&quot;: 1,
+      &quot;feedback&quot;: &quot;The title identifies the intended deliverable.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;Which is an observable acceptance criterion?&quot;,
+      &quot;options&quot;: [
+        &quot;Looks good&quot;,
+        &quot;Someone worked hard&quot;,
+        &quot;All three approved escalation steps appear in order&quot;
+      ],
+      &quot;key&quot;: 2,
+      &quot;feedback&quot;: &quot;A reviewer can inspect the deliverable against this condition.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;What can change the fields in the Create form?&quot;,
+      &quot;options&quot;: [
+        &quot;Space, work type and configuration&quot;,
+        &quot;Only the learner’s favorite color&quot;,
+        &quot;Nothing; every tenant is identical&quot;
+      ],
+      &quot;key&quot;: 0,
+      &quot;feedback&quot;: &quot;Configured work types and contexts affect the form.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;Review is required and not yet complete. Which state fits this sample?&quot;,
+      &quot;options&quot;: [
+        &quot;Done&quot;,
+        &quot;Review&quot;,
+        &quot;Archived&quot;
+      ],
+      &quot;key&quot;: 1,
+      &quot;feedback&quot;: &quot;The state reflects the unmet review condition.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;A needed transition is unavailable. What is a useful next step?&quot;,
+      &quot;options&quot;: [
+        &quot;Assume the work is complete&quot;,
+        &quot;Invent a bypass&quot;,
+        &quot;Check workflow rules and permissions with the appropriate owner&quot;
+      ],
+      &quot;key&quot;: 2,
+      &quot;feedback&quot;: &quot;Available transitions are controlled by the configured workflow.&quot;
+    }
+  ],
+  &quot;jobaid&quot;: [
+    &quot;Name the deliverable.&quot;,
+    &quot;Add observable acceptance criteria.&quot;,
+    &quot;Record evidence and blockers.&quot;,
+    &quot;Move status when the team’s conditions are met.&quot;
+  ],
+  &quot;sources&quot;: [
+    [
+      &quot;Atlassian: Create a work item&quot;,
+      &quot;https://support.atlassian.com/jira-software-cloud/docs/create-a-work-item-and-a-subtask&quot;
+    ],
+    [
+      &quot;Atlassian: Jira workflows&quot;,
+      &quot;https://support.atlassian.com/jira-software-cloud/docs/what-are-jira-workflows/&quot;
+    ]
+  ],
+  &quot;duration&quot;: &quot;12–15 minutes&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;brand&quot;: {
+    &quot;name&quot;: &quot;intuit turbotax&quot;,
+    &quot;context&quot;: &quot;Independent portfolio study&quot;,
+    &quot;primary&quot;: &quot;#C8202F&quot;,
+    &quot;ink&quot;: &quot;#172B32&quot;
+  },
+  &quot;disclosure&quot;: &quot;Original fictional workplace scenarios. This independent portfolio sample is not official employer or vendor training.&quot;
+}</pre></html>
