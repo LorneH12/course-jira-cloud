@@ -16,3 +16,7 @@ Catalog baseline: dbc29fed2529503420d17e1b3df975407a15634f. Transcript reviewed 
 
 ## Evidence and constraints
 Brand-inspired portfolio sample, no employer endorsement. All scenarios synthetic. Five-question check target 80%; participation completion is separate. Writing self-review is not a competence score. No learning-record backend deployed. Full accessibility, human pilot and real LMS interoperability remain pending. No purchases or new credentials.
+
+## Interactive media revision — 9 October 2026
+Prominent editorial hero, direct Watch entry, existing narrated scenario with captions and Read alternative. The activity now precedes the worked explanation. Jira and Confluence have topic-specific builders with guarded release/status decisions. ADKAR retains an evidence-based coaching rehearsal; Adult Learning builds a 12-minute workshop; EBITDA includes an animated earnings meter. Hero art is AI-generated illustration, not employer imagery or an AI presenter. Presenter media remains pending from dot. Existing tracking and scoring preserved.
+Source: media-first.js provides the presentation/interaction layer; edit it with experience.css. The reusable engine remains experience.js.
